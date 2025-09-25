@@ -1574,4 +1574,11 @@ responsive
   .phone-info h4 span i {
     margin-left: 0px;
   }
+
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100px; /* телефон үшін кіші логотип */
+  }
 }
