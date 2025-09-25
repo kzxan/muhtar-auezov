@@ -344,7 +344,7 @@ header
 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a {
-  color: #fff !important;
+  color: black !important;
   padding: 0px 20px;
   font-weight: 400;
 }
@@ -1582,3 +1582,4 @@ responsive
     max-width: 100px; /* телефон үшін кіші логотип */
   }
 }
+
