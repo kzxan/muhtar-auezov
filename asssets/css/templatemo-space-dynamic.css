@@ -135,15 +135,11 @@ img {
   overflow: hidden;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* арасы */
-}
+
 
 .logo img {
-  height: 80px;
-  width: auto; /* пропорция бұзылмасын */
+  height: 100px;
+  width: 100px; /* пропорция бұзылмасын */
   max-width: 200px; /* шектеп қойған дұрыс */
 }
 
@@ -1607,6 +1603,7 @@ responsive
     max-width: 100px; /* телефон үшін кіші логотип */
   }
 }
+
 
 
 
