@@ -136,16 +136,27 @@ img {
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: nowrap; /* Ешқашан астыға түсірмеу */
+  display: flex;
+  align-items: center;
+  gap: 20px; /* арасы */
 }
 
-.logo-container img {
-    max-height: 50px;   /* логотип өлшемі */
-    max-width: 120px;   /* тым үлкейіп кетпеу үшін */
+.logo img {
+  height: 80px;
+  width: auto; /* пропорция бұзылмасын */
+  max-width: 200px; /* шектеп қойған дұрыс */
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    flex-direction: row;   /* мобилдыда да қатар тұрады */
+    gap: 10px;
+  }
+
+  .logo img {
+    height: 60px;
+    max-width: 150px;
+  }
 }
 
 
@@ -1596,5 +1607,6 @@ responsive
     max-width: 100px; /* телефон үшін кіші логотип */
   }
 }
+
 
 
