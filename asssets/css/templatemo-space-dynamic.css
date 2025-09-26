@@ -135,6 +135,20 @@ img {
   overflow: hidden;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: nowrap; /* Ешқашан астыға түсірмеу */
+}
+
+.logo-container img {
+    max-height: 50px;   /* логотип өлшемі */
+    max-width: 120px;   /* тым үлкейіп кетпеу үшін */
+}
+
+
 /* 
 ---------------------------------------------
 global styles
@@ -1582,4 +1596,5 @@ responsive
     max-width: 100px; /* телефон үшін кіші логотип */
   }
 }
+
 
